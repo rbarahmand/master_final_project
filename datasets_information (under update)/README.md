@@ -1,0 +1,136 @@
+# Datasets
+
+### آمار نامه دارویی
+
+- Year 1383-1400
+    - سال
+    - شکل دارویی
+    - تامین*
+    - پخش*
+    - نام دارو*
+    - وضعیت*
+    - ژنریک
+    - ATC L1
+    - ATC L2
+    - ATC L3
+    - EDL
+    - therapiutic
+    - hazard
+    - هولدینگ
+    - مارژین پخش
+    - مارژین داروخانه
+    - سهم ریالی بیمه
+    - فروش عددی
+    - فروش ریالی
+- Year 1396-1400 (cleaned)
+    - Row
+        - It could probably be the index number on TitTak website
+        - سازمان غذا و دارو
+    - Year
+    - تاریخ شمسی
+    - شرکت تولید کننده
+        - Often till distributor is the same, that is, producer, supplier, license holder are the same.
+    - شرکت تامین کننده
+    - شرکت تامین کننده-En
+    - صاحب برند
+    - صاحب برند-En
+    - توزیع کننده
+        - In many cases this is different than producer
+    - توزیع کننده-En
+    - کشور تولید
+    - Country
+    - وضعیت
+        - Whether the product is imported or home made
+    - لاتین برند
+        - Brand drug → The first information after a drug is invented or discovered
+        - It is like a patent
+    - بسته بندی
+        - IS ALL NAN
+    - ژنریک
+        - After expiring the patent time, any company can produce under it’s own name
+        - [https://en.wikipedia.org/wiki/Drug_nomenclature#Nonproprietary_(generic)_names](https://en.wikipedia.org/wiki/Drug_nomenclature#Nonproprietary_(generic)_names)
+    - ماده موثر
+        - The base ingredient of the drug that is the whole reason behind working a medicine.
+        - [https://en.wikipedia.org/wiki/Active_ingredient](https://en.wikipedia.org/wiki/Active_ingredient)
+    - تعداد فروش (بسته)
+        - Number of drug pack sells
+    - تعداد در بسته
+        - Quantity inside a pack
+    - فروش عددی
+        - Total quantity soled
+    - فروش ریالی مصرف کننده
+        - Total sale
+    - قیمت واحد (ریال)
+        - Price per unit quantity
+    - کد ژنریک
+        - Generic Code Name (GCN)
+        - [https://www.findacode.com/articles/drug-classification-systems-35806.html#:~:text=Generic Code Number (GCN) -,has its own unique GCN](https://www.findacode.com/articles/drug-classification-systems-35806.html#:~:text=Generic%20Code%20Number%20(GCN)%20%2D,has%20its%20own%20unique%20GCN).
+    - OTC
+        - Whether a drug needs a prescription or not
+        - Over-the-counter
+    - بیولوژیک
+        - Whether a drug is of biologics kind or not
+        - Biological drugs, commonly referred to as biologics, are a class of drugs that are produced using a living system
+        - [https://www.fightcancer.org/policy-resources/understanding-biologic-and-biosimilar-drugs](https://www.fightcancer.org/policy-resources/understanding-biologic-and-biosimilar-drugs)
+    - Dosage Form
+        - How to quantify the drug
+    - Consumption Instruction
+        - How to use the drug
+    - ATC CODE
+        - Anatomical Therapeutic Chemical (ATC) Classification
+        - In the Anatomical Therapeutic Chemical (ATC) classification system, the active substances are divided into different groups according to the organ or system on which they act and their therapeutic, pharmacological and chemical properties. Drugs are classified in groups at five different levels.
+        - [https://www.who.int/tools/atc-ddd-toolkit/atc-classification](https://www.who.int/tools/atc-ddd-toolkit/atc-classification)
+    - Anatomical main group
+        - Obtained using ATC Code
+    - Anatomical main group2
+        - Obtained using ATC Code
+    - Therapeutic subgroup
+        - Obtained using ATC Code
+    - Therapeutic subgroup3
+        - Obtained using ATC Code
+    - RTC
+        - 
+- Year 1401-12
+    - نام شرکت پخش
+    - نام صاحب برند
+    - نام شرکت تامین کننده
+    - نام شرکت تولید کننده
+    - نام لاتین برند
+    - نام برند
+    - نام لاتین فهرست
+    - کد ژنریک
+    - نام ژنریک
+    - تعداد فروش (بسته)
+    - تعداد در بسته
+    - فروش عددی
+    - فروش ریالی ( مبتنی بر قیمت مصرف کننده)
+    - OTC
+    - بیولوژیک
+    - تحت لیسانس
+    - کد ATC
+    - کشور تولید کننده
+    - ثبتی/فوریتی
+    - تولیدی/وارداتی
+
+### TTAC Data (crawled)
+
+- Year 1402-10
+    - Name
+    - Generic Name
+    - Drug_Form
+    - Consumption
+    - license
+    - Brandowner
+    - Country
+    - Producer
+    - License_exp
+    - Price_Per_Pack
+    - Unit_Price
+    - GTIN
+        - Assigned by the brand owner of the product, and are used to identify products as they move through the global supply chain to the hospital or consumer/patient.
+        - [https://www.softgroup.eu/2023/09/05/gtin-number-in-pharma-industry/](https://www.softgroup.eu/2023/09/05/gtin-number-in-pharma-industry/)
+    - IRC
+        - [Iran registration code](https://www.notion.so/How-to-Read-a-Scientific-Paper-c32bdef74d5143edb2466c806d620ef7?pvs=21)
+    - Number_per_pack
+    - Ingredients
+    - ATC_code
