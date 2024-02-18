@@ -47,7 +47,7 @@ Methods: at PSC level, demand prediction is not the only part affecting the opti
 
   - Supply chain network
 
-  - ![Untitled](./images/Untitled.png)
+  - <img src=./images/Untitled.png width=500>
 
   - Our main focus in this context, is more on the downstream part of the distribution (aka. PSC)
   - There are different types of insulin, but this study aims to just identify the need of Insulin.
@@ -61,7 +61,7 @@ Methods: at PSC level, demand prediction is not the only part affecting the opti
 
   - Create a diagram for the mathematic model
 
-  - ![article00.drawio.png](./images/article00.drawio.png)
+  - <img src=./images/article00.drawio.png width=600>
 
   - What optimization algorithm used is not mentioned.
   - Mathematical formulation is presented in GAMS and solved CPLEX solver.
@@ -73,7 +73,7 @@ Methods: at PSC level, demand prediction is not the only part affecting the opti
     - 4 different vehicles (V=4)
     - Parameters are generated uniformly random
 
-    - ![Untitled](./images/Untitled%201.png)
+    - <img src=./images/Untitled%201.png width=500>
 
     - The demand information obtained from ANN (best model)
     - Generated demand is also use uniform distribution
@@ -88,7 +88,7 @@ Methods: at PSC level, demand prediction is not the only part affecting the opti
     - Data grouped into an output variable target (total number of patients, available on website clincalc.com)
     - Input (vector of features).
 
-    - ![Untitled](./images/Untitled%202.png)
+    - <img src=./images/Untitled%202.png width=500>
 
     - output (target value, total number of patients)
 
@@ -113,7 +113,7 @@ Methods: at PSC level, demand prediction is not the only part affecting the opti
 
 - The best model was ANN
 
-- ![Untitled](./images/Untitled%203.png)
+- <img src=./images/Untitled%203.png width=500>
 
 - They might not tune the parameters for random forest good enough
 - ANN R-value approximately is equal to 93.10%
