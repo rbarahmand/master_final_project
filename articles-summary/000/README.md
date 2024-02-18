@@ -45,7 +45,7 @@ Methods: at PSC level, demand prediction is not the only part affecting the opti
 
 - **The problem:**
   - Supply chain network
-    ![Untitled](./Demand%20Prediction%20Based%20on%20Machine%20Learning%20Algori%20b1cd013be38247ff91f1eb14cc70a3eb/Untitled.png)
+    ![Untitled](./images/Untitled.png)
   - Our main focus in this context, is more on the downstream part of the distribution (aka. PSC)
   - There are different types of insulin, but this study aims to just identify the need of Insulin.
   - **Assumptions:**
@@ -55,7 +55,7 @@ Methods: at PSC level, demand prediction is not the only part affecting the opti
     - The demand for each customer is uncertain and changes according to the need of the customers and the factors influencing its variability.
 - **Optimization of distribution:**
   - Create a diagram for the mathematic model
-    ![article00.drawio.png](./Demand%20Prediction%20Based%20on%20Machine%20Learning%20Algori%20b1cd013be38247ff91f1eb14cc70a3eb/article00.drawio.png)
+    ![article00.drawio.png](./images/article00.drawio.png)
   - What optimization algorithm used is not mentioned.
   - Mathematical formulation is presented in GAMS and solved CPLEX solver.
   - The Problem Generated
@@ -64,7 +64,7 @@ Methods: at PSC level, demand prediction is not the only part affecting the opti
     - 12 time periods (T=12)
     - 4 different vehicles (V=4)
     - Parameters are generated uniformly random
-      ![Untitled](./Demand%20Prediction%20Based%20on%20Machine%20Learning%20Algori%20b1cd013be38247ff91f1eb14cc70a3eb/Untitled%201.png)
+      ![Untitled](./images/Untitled%201.png)
     - The demand information obtained from ANN (best model)
     - Generated demand is also use uniform distribution
     - For the test problem, the optimum value of the objective function is 15 368×103.
@@ -74,7 +74,7 @@ Methods: at PSC level, demand prediction is not the only part affecting the opti
     - Companies: Sanofi, Eli Lilly, and Novo Nordisk
     - Data grouped into an output variable target (total number of patients, available on website clincalc.com)
     - Input (vector of features)
-      ![Untitled](./Demand%20Prediction%20Based%20on%20Machine%20Learning%20Algori%20b1cd013be38247ff91f1eb14cc70a3eb/Untitled%202.png)
+      ![Untitled](./images/Untitled%202.png)
     - output (target value, total number of patients)
   - Model:
     - Supervised, Regression Problem
@@ -96,7 +96,7 @@ Methods: at PSC level, demand prediction is not the only part affecting the opti
 ### Results
 
 - The best model was ANN
-  ![Untitled](./Demand%20Prediction%20Based%20on%20Machine%20Learning%20Algori%20b1cd013be38247ff91f1eb14cc70a3eb/Untitled%203.png)
+  ![Untitled](./images/Untitled%203.png)
 - They might not tune the parameters for random forest good enough
 - ANN R-value approximately is equal to 93.10%
 - These predictions then fed into the mathematical model, for optimization.
