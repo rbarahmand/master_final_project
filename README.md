@@ -12,7 +12,7 @@ This my progress as I go through my master project, It may consists of codes, ar
 
 ## Articles
 
-- [Link to the article's summary](.\articles-summary\README.md)
+- [Link to the article's summary](./articles-summary/README.md)
 
 ## Codes
 
