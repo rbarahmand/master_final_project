@@ -6,16 +6,21 @@ This my progress as I go through my master project, It may consists of codes, ar
 
 | Data      | Type    | Description                                                                    | Link                            |
 | --------- | ------- | ------------------------------------------------------------------------------ | ------------------------------- |
+| 2/27/2024 | General | Scenario planning page added                                                   | [click](./scenarios.md)         |
 | 2/27/2024 | Article | Trend Analysis of Medicine Consumption Based on Therapeutic Categories in Iran | [click](/articles-summary/003/) |
 
 ## Quick Links in This Page
 
-|                                   |                          |                    |
-| --------------------------------- | ------------------------ | ------------------ |
-| [🔃 Quick Updates](#last-updates) | [📃 Articles](#articles) | [💻 Codes](#codes) |
-| [📊 Dataset](#datasets)           |                          |
+|                                   |                            |                          |
+| --------------------------------- | -------------------------- | ------------------------ |
+| [🔃 Quick Updates](#last-updates) | 🎯 [Scenarios](#scenarios) | [📃 Articles](#articles) |
+| [💻 Codes](#codes)                | [📊 Dataset](#datasets)    |                          |
 
 # Main Content
+
+## Scenarios
+
+- [This is the direct link to the scenario planning page and problem definition](./scenarios.md)
 
 ## Articles
 
