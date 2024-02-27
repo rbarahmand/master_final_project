@@ -2,11 +2,18 @@
 
 This my progress as I go through my master project, It may consists of codes, article's summary, latex files, and even web applications.
 
+## Last Updates
+
+| Data      | Type    | Description                                                                    | Link                            |
+| --------- | ------- | ------------------------------------------------------------------------------ | ------------------------------- |
+| 2/27/2024 | Article | Trend Analysis of Medicine Consumption Based on Therapeutic Categories in Iran | [click](/articles-summary/003/) |
+
 ## Quick Links
 
-|                          |                    |                 |
-| ------------------------ | ------------------ | --------------- |
-| [📃 Articles](#articles) | [💻 Codes](#codes) | [📊 Dataset](#) |
+|                                   |                          |                    |
+| --------------------------------- | ------------------------ | ------------------ |
+| [🔃 Quick Updates](#last-updates) | [📃 Articles](#articles) | [💻 Codes](#codes) |
+| [📊 Dataset](#datasets)           |                          |
 
 # Main Content
 
@@ -16,7 +23,7 @@ This my progress as I go through my master project, It may consists of codes, ar
 
 ## Codes
 
-- [Link to the TTAC Crawler (python)](./code/TTAK_crawler/README.md)
+- [Link to the TTAC Crawler (python) - Not available now](./code/TTAK_crawler/README.md)
 
 ## Datasets
 
