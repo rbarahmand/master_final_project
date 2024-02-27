@@ -8,7 +8,7 @@ This my progress as I go through my master project, It may consists of codes, ar
 | --------- | ------- | ------------------------------------------------------------------------------ | ------------------------------- |
 | 2/27/2024 | Article | Trend Analysis of Medicine Consumption Based on Therapeutic Categories in Iran | [click](/articles-summary/003/) |
 
-## Quick Links
+## Quick Links in This Page
 
 |                                   |                          |                    |
 | --------------------------------- | ------------------------ | ------------------ |
